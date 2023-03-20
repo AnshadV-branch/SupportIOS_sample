@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>anshad.Support-iOS</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>iostest</string>
+			</array>
+		</dict>
+	</array>
+	<key>branch_key</key>
+	<dict>
+		<key>live</key>
+		<string>key_live_cDdpkVYKzlTuHxRwI13OSbeaEDb7bnbZ</string>
+		<key>test</key>
+		<string>key_test_hzcjgG6VDnVyIsSzQ9WKZgdarymYfkqe</string>
+	</dict>
+	<key>branch_universal_link_domains</key>
+	<array>
+		<string>applinks:j4s08.app.link</string>
+		<string>applinks:j4s08-alternate.app.link</string>
+		<string>applinks:j4s08-alternate.test-app.link</string>
+		<string>applinks:j4s08.test-app.link</string>
+	</array>
+</dict>
+</plist>

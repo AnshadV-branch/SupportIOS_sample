@@ -14,6 +14,16 @@
 		034F740029C71E5E00CFD4E9 /* Support_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F73FF29C71E5E00CFD4E9 /* Support_iOSTests.swift */; };
 		034F740A29C71E5E00CFD4E9 /* Support_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F740929C71E5E00CFD4E9 /* Support_iOSUITests.swift */; };
 		034F740C29C71E5E00CFD4E9 /* Support_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F740B29C71E5E00CFD4E9 /* Support_iOSUITestsLaunchTests.swift */; };
+		034F741C29C726AC00CFD4E9 /* BranchSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 034F741B29C726AC00CFD4E9 /* BranchSDK */; };
+		034F741F29C7272F00CFD4E9 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034F741E29C7272F00CFD4E9 /* iAd.framework */; };
+		034F742129C7273800CFD4E9 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034F742029C7273800CFD4E9 /* WebKit.framework */; };
+		034F742329C7274000CFD4E9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034F742229C7274000CFD4E9 /* CoreTelephony.framework */; };
+		034F742529C7274C00CFD4E9 /* CoreSpotlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034F742429C7274C00CFD4E9 /* CoreSpotlight.framework */; };
+		034F742729C7275400CFD4E9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034F742629C7275400CFD4E9 /* SystemConfiguration.framework */; };
+		034F742929C7275C00CFD4E9 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034F742829C7275C00CFD4E9 /* CoreServices.framework */; };
+		034F742B29C7276400CFD4E9 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034F742A29C7276400CFD4E9 /* AdSupport.framework */; };
+		034F742D29C7276900CFD4E9 /* AdServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034F742C29C7276900CFD4E9 /* AdServices.framework */; };
+		034F742F29C727D800CFD4E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F742E29C727D800CFD4E9 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,17 @@
 		034F740529C71E5E00CFD4E9 /* Support iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Support iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		034F740929C71E5E00CFD4E9 /* Support_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Support_iOSUITests.swift; sourceTree = "<group>"; };
 		034F740B29C71E5E00CFD4E9 /* Support_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Support_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		034F741829C71F5600CFD4E9 /* Support iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Support iOS.entitlements"; sourceTree = "<group>"; };
+		034F741929C7220F00CFD4E9 /* Support-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Support-iOS-Info.plist"; sourceTree = SOURCE_ROOT; };
+		034F741E29C7272F00CFD4E9 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		034F742029C7273800CFD4E9 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		034F742229C7274000CFD4E9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		034F742429C7274C00CFD4E9 /* CoreSpotlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSpotlight.framework; path = System/Library/Frameworks/CoreSpotlight.framework; sourceTree = SDKROOT; };
+		034F742629C7275400CFD4E9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		034F742829C7275C00CFD4E9 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		034F742A29C7276400CFD4E9 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		034F742C29C7276900CFD4E9 /* AdServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdServices.framework; path = System/Library/Frameworks/AdServices.framework; sourceTree = SDKROOT; };
+		034F742E29C727D800CFD4E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +72,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				034F742D29C7276900CFD4E9 /* AdServices.framework in Frameworks */,
+				034F742B29C7276400CFD4E9 /* AdSupport.framework in Frameworks */,
+				034F742929C7275C00CFD4E9 /* CoreServices.framework in Frameworks */,
+				034F742729C7275400CFD4E9 /* SystemConfiguration.framework in Frameworks */,
+				034F742529C7274C00CFD4E9 /* CoreSpotlight.framework in Frameworks */,
+				034F742329C7274000CFD4E9 /* CoreTelephony.framework in Frameworks */,
+				034F742129C7273800CFD4E9 /* WebKit.framework in Frameworks */,
+				034F741F29C7272F00CFD4E9 /* iAd.framework in Frameworks */,
+				034F741C29C726AC00CFD4E9 /* BranchSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +108,7 @@
 				034F73FE29C71E5E00CFD4E9 /* Support iOSTests */,
 				034F740829C71E5E00CFD4E9 /* Support iOSUITests */,
 				034F73EC29C71E5D00CFD4E9 /* Products */,
+				034F741D29C7272F00CFD4E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,10 +125,13 @@
 		034F73ED29C71E5D00CFD4E9 /* Support iOS */ = {
 			isa = PBXGroup;
 			children = (
+				034F741929C7220F00CFD4E9 /* Support-iOS-Info.plist */,
+				034F741829C71F5600CFD4E9 /* Support iOS.entitlements */,
 				034F73EE29C71E5D00CFD4E9 /* Support_iOSApp.swift */,
 				034F73F029C71E5D00CFD4E9 /* ContentView.swift */,
 				034F73F229C71E5E00CFD4E9 /* Assets.xcassets */,
 				034F73F429C71E5E00CFD4E9 /* Preview Content */,
+				034F742E29C727D800CFD4E9 /* AppDelegate.swift */,
 			);
 			path = "Support iOS";
 			sourceTree = "<group>";
@@ -127,6 +161,21 @@
 			path = "Support iOSUITests";
 			sourceTree = "<group>";
 		};
+		034F741D29C7272F00CFD4E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				034F742C29C7276900CFD4E9 /* AdServices.framework */,
+				034F742A29C7276400CFD4E9 /* AdSupport.framework */,
+				034F742829C7275C00CFD4E9 /* CoreServices.framework */,
+				034F742629C7275400CFD4E9 /* SystemConfiguration.framework */,
+				034F742429C7274C00CFD4E9 /* CoreSpotlight.framework */,
+				034F742229C7274000CFD4E9 /* CoreTelephony.framework */,
+				034F742029C7273800CFD4E9 /* WebKit.framework */,
+				034F741E29C7272F00CFD4E9 /* iAd.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +192,9 @@
 			dependencies = (
 			);
 			name = "Support iOS";
+			packageProductDependencies = (
+				034F741B29C726AC00CFD4E9 /* BranchSDK */,
+			);
 			productName = "Support iOS";
 			productReference = 034F73EB29C71E5D00CFD4E9 /* Support iOS.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +267,9 @@
 				Base,
 			);
 			mainGroup = 034F73E229C71E5D00CFD4E9;
+			packageReferences = (
+				034F741A29C726AC00CFD4E9 /* XCRemoteSwiftPackageReference "ios-branch-sdk-spm" */,
+			);
 			productRefGroup = 034F73EC29C71E5D00CFD4E9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				034F742F29C727D800CFD4E9 /* AppDelegate.swift in Sources */,
 				034F73F129C71E5D00CFD4E9 /* ContentView.swift in Sources */,
 				034F73EF29C71E5D00CFD4E9 /* Support_iOSApp.swift in Sources */,
 			);
@@ -414,12 +470,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Support iOS/Support iOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Support iOS/Preview Content\"";
 				DEVELOPMENT_TEAM = R63EM248DP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support-iOS-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -443,12 +501,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Support iOS/Support iOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Support iOS/Preview Content\"";
 				DEVELOPMENT_TEAM = R63EM248DP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support-iOS-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -583,6 +643,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		034F741A29C726AC00CFD4E9 /* XCRemoteSwiftPackageReference "ios-branch-sdk-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BranchMetrics/ios-branch-sdk-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		034F741B29C726AC00CFD4E9 /* BranchSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 034F741A29C726AC00CFD4E9 /* XCRemoteSwiftPackageReference "ios-branch-sdk-spm" */;
+			productName = BranchSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 034F73E329C71E5D00CFD4E9 /* Project object */;
 }
