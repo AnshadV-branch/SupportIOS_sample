@@ -8,6 +8,7 @@ import SwiftUI
 import BranchSDK
 
 struct ContentView: View {
+    @State private var showSafari: Bool = false
     public var shortUrl: String = ""
     
     var body: some View {
@@ -21,6 +22,22 @@ struct ContentView: View {
                     .font(.title3)
             }
             .padding(10.0)
+            
+            Button (action: {
+                showSafari.toggle()
+            }) {
+                Text ("in app browser")
+                    .bold ()
+                    .font(.title3)
+            }
+            .padding (10.0)
+            .onChange (of: showSafari) { newValue in
+            if newValue {
+                }
+            }
+            .fullScreenCover(isPresented: $showSafari, content: {
+                SFSafariViewWrapper(url: URL(string: "https://tmn.app.link/gncscanb?codeValue=https%3A%2F%2Fglobal.alipay.com%2F281002040098ZTH76Gk2g30m9F1kYGrv4ZbQ")!)
+            })
         }
         
         

@@ -24,6 +24,7 @@
 		034F742B29C7276400CFD4E9 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034F742A29C7276400CFD4E9 /* AdSupport.framework */; };
 		034F742D29C7276900CFD4E9 /* AdServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034F742C29C7276900CFD4E9 /* AdServices.framework */; };
 		034F742F29C727D800CFD4E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F742E29C727D800CFD4E9 /* AppDelegate.swift */; };
+		038786342A386E5400D55D67 /* SFSafariViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038786332A386E5400D55D67 /* SFSafariViewWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		034F742A29C7276400CFD4E9 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		034F742C29C7276900CFD4E9 /* AdServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdServices.framework; path = System/Library/Frameworks/AdServices.framework; sourceTree = SDKROOT; };
 		034F742E29C727D800CFD4E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		038786332A386E5400D55D67 /* SFSafariViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSafariViewWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				034F73F229C71E5E00CFD4E9 /* Assets.xcassets */,
 				034F73F429C71E5E00CFD4E9 /* Preview Content */,
 				034F742E29C727D800CFD4E9 /* AppDelegate.swift */,
+				038786332A386E5400D55D67 /* SFSafariViewWrapper.swift */,
 			);
 			path = "Support iOS";
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				034F742F29C727D800CFD4E9 /* AppDelegate.swift in Sources */,
 				034F73F129C71E5D00CFD4E9 /* ContentView.swift in Sources */,
 				034F73EF29C71E5D00CFD4E9 /* Support_iOSApp.swift in Sources */,
+				038786342A386E5400D55D67 /* SFSafariViewWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
